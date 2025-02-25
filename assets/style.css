@@ -1,0 +1,100 @@
+body{
+    width:1440px;
+    background-color:  hsl(30, 54%, 90%);
+    font-weight: 400;
+    font-family:'Outfit',sans-serif;
+}
+
+.main{
+    background-color: hsl(0, 0%, 100%);
+    text-align: left;
+    border: 1px white;
+    border-radius: 2%;
+    margin:auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width:40%;
+    padding: 50px;
+    
+}
+
+img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+h1{
+    font-family: 'Young Serif', serif;
+    color: hsl(24, 5%, 18%);
+}
+
+h3{
+    color:hsl(332, 51%, 32%);
+    font-family: 'Young Serif', serif;
+    font-weight: 700;
+}
+
+#preparationtime{
+    border: 1px white;
+    padding:2%;
+}
+
+
+#preparation-list{
+    line-height: 2rem;
+    list-style-position: inside;
+    padding: 0;
+}
+
+#display-line{
+    text-align: left;
+}
+
+#col1{
+    padding-right: 220px;
+}
+#col2{
+    padding-right: 236px;
+}
+
+#col3{
+    padding-right: 227px;
+}
+#col4{
+    padding-right: 252px;
+}
+
+.ingredients{
+   
+    padding:3px;
+}
+
+.instructions{
+   
+    padding:3px;
+}
+
+h2{
+    color:hsl(14, 45%, 36%);
+    font-family: 'Young Serif', serif;
+    font-weight: 600;
+}
+
+#value{
+    color:hsl(14, 45%, 36%);
+    font-weight: bolder;
+}
+
+p{
+    font-size: 16px;
+}
+
+ol > li::marker{
+    font-weight: bold;
+    color:hsl(30, 10%, 34%);
+}
+
+ul > li::marker{
+    color: hsl(30, 10%, 34%);
+}
+
